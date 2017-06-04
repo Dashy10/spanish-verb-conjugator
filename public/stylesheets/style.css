@@ -1,0 +1,137 @@
+
+html, body {
+  overflow-x: hidden;
+  height: 100%;
+  margin: 0;
+  background-color: #DCBE68;
+  font-family: 'Mogra', cursive;
+}
+
+.wrapper {
+  min-height: 100%;
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+
+.footer, .push {
+  height: 50px;
+}
+
+.footer {
+  text-align: center;
+  color: #DCBE68;
+  background-color: #351c75;
+  font-size: 1.9em;
+}
+
+.container-fluid {
+  background-color: #351c75;
+}
+
+#nav-wrapper {
+  border: 1px solid #351c75;
+  border-radius: 0;
+}
+
+.form-control {
+  background: #DCBE68;
+  border: #DCBE68;
+}
+
+#verb-search {
+  background: #DCBE68;
+  border: #DCBE68;
+  color: #351c75;
+}
+
+#verb-search:hover {
+  background: #351c75;
+  color: #DCBE68;
+}
+
+.text-color {
+  color: #DCBE68 !important;
+}
+
+.text-color:hover {
+  background: #DCBE68 !important;
+  color: #351c75 !important;
+}
+
+.dropdown-menu {
+  background-color: #351c75 !important;
+}
+
+.navbar-toggle {
+  background-color: : #DCBE68 !important;
+}
+
+.icon-bar {
+  background-color: #351c75 !important;
+  border: #DCBE68 !important;
+}
+
+#button-color {
+  border: #351c75 !important;
+  background-color: #DCBE68 !important;
+}
+
+.divider {
+  background-color: #DCBE68 !important;
+}
+
+#centered {
+  border-radius: 5%;
+  border: 3px solid #351c75;
+  color: #351c75;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.col-xs-5ths, .col-sm-5ths, .col-md-5ths, .col-lg-5ths {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col-xs-5ths {
+  width: 20%;
+  float: left;
+}
+
+@media (min-width: 768px) {
+  .col-sm-5ths {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-md-5ths {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-5ths {
+    width: 20%;
+    float: left;
+  }
+}
+
+.in-line {
+  display: inline-block; !important
+}
+
+.row {
+  color: #351c75;
+}
+
+.verb-border {
+  border: 3px solid #351c75;
+}
